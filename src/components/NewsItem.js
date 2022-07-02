@@ -6,7 +6,7 @@ export class NewsItem extends Component {
     let { title, description, imgUrl, newsUrl } = this.props;
     return (
       <div className='my-3'>
-        <div className="card" style={{ width: "18rem" }}>
+        <div className="card">
           <img src={!imgUrl?"https://static.toiimg.com/thumb/msid-92591751,width-1070,height-580,imgsize-27896,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg":imgUrl} 
                className="card-img-top"
                alt="..." />
